@@ -1,0 +1,77 @@
+                                                        git email id and name
+to set email id = git config --global user.email <"useremail">
+to set user name = git config --global user.name <"username">
+
+to get email id = git config user.email
+to get name = git config user.name
+ 
+                                         General git commands
+ls = it is used to show the list items in the folder
+
+cd = It is used to enter the folder 
+
+mkdir(make directory) = to create a new directory(folder) in the present directory
+
+git init = it creates a git repository in the given folder
+
+ls -a = it is used to show the hidden files also in the given directory or folder.
+
+touch = new file can be created using touch
+
+git status = it tells the current status of the git file(which file is not commited or all the files got commited or not)
+
+git add . = it takes all the data to the stagging area where the files are ready to get commmited
+here "." represent that all the files present in the folder must get to the stagging area.
+
+git commit -m "...." = Now all the files that got added to the stagging area now gets commited.
+Here -m represent to show a message when all the files get commited and the message is there in the ""
+
+vi names.txt = now you can add data in the names.txt
+to exit vi names.txt = press esc and enter :x!
+
+cat names.txt = it is used to show what is there in the names.txt 
+
+git restore --staged names.txt = it is used to remove the file from the stagged area.
+
+git log = It is used to show the history of the whole repo or the file 
+
+rm -rf names.txt = It is used to remove the files from the folder.
+
+git reset <id> = it resets the history // we get the id using git log
+                        
+
+                                             To build a backstage structure in git
+
+
+git stash = we take all the files that we took on the stage(using add) go in the back stage // they will be in a different structure and cannot be called directly
+
+git stash pop = It takes the files back from the back stage to the current place
+
+git stash clean = It cleans everything that is present there in the back stage.
+
+
+                                                                  To work on github
+
+
+git remote add origin <repo link> = it links the git and github
+//git = just a git command 
+//remote = you are dealing with links
+//add = you are adding something
+//origin - the name of the url( now this url is named as "origin")
+git remote rm origin -it detaches the repo in git.
+
+git remote -v = it tells about the repos that are attached to current git.
+
+we can fork any public repo (copying it and converting it into ours //github)
+copy that link = link1 (say)
+git clone link1 = It will create a new folder in the present file and download all the code present in that repo
+
+From where we have forked the project is known as Upstream URL.
+
+git remote add upstream <upstream link> 
+
+git branch <branchname> = it is used to create a new branch.
+
+git checkout <branchname> = It is used to switch to other branch.
+
+git push origin/*(link name)*/ <branchname>
