@@ -81,4 +81,8 @@ git branch <branchname> = it is used to create a new branch.
 
 git checkout <branchname> & git checkout <hashCode> = It is used to switch to other branch.Using log we can get the hashcodes of previous commit and undo the changes.
 
+git checkout -b <branchname> : above 2 commands in one command.
+
 git push origin/*(link name)*/ <branchname>
+
+git merge <branchname>(k) = the k branch will get merge to the current branch 
