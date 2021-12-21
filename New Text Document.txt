@@ -1,9 +1,13 @@
+Youtube link for git in one video(Anuj Bhaiya) = https://www.youtube.com/watch?v=uaeKhfhYE0U
+
+to clear git screen = clear
                                                         git email id and name
 to set email id = git config --global user.email <"useremail">
 to set user name = git config --global user.name <"username">
 
 to get email id = git config user.email
 to get name = git config user.name
+to edit the data = git config --global --edit
  
                                          General git commands
 ls = it is used to show the list items in the folder
@@ -22,9 +26,12 @@ git status = it tells the current status of the git file(which file is not commi
 
 git add . = it takes all the data to the stagging area where the files are ready to get commmited
 here "." represent that all the files present in the folder must get to the stagging area.
+the data gets into the stagging area after this command has been initialized.
 
 git commit -m "...." = Now all the files that got added to the stagging area now gets commited.
 Here -m represent to show a message when all the files get commited and the message is there in the ""
+
+git log = It is used to provide the history of all the commits, shows the data with a hash code
 
 vi names.txt = now you can add data in the names.txt
 to exit vi names.txt = press esc and enter :x!
