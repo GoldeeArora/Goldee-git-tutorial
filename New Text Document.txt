@@ -79,6 +79,6 @@ git remote add upstream <upstream link>
 
 git branch <branchname> = it is used to create a new branch.
 
-git checkout <branchname> = It is used to switch to other branch.
+git checkout <branchname> & git checkout <hashCode> = It is used to switch to other branch.Using log we can get the hashcodes of previous commit and undo the changes.
 
 git push origin/*(link name)*/ <branchname>
